@@ -1,0 +1,98 @@
+body{
+    font-family: 'TW CEN MT';
+    background: linear-gradient(to top, rgb(25, 168, 224), 10%, white);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header img{
+    width: 25%;
+    border-radius: 100%;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    border-bottom: solid rgb(10, 46, 155);
+    box-shadow: 4px 4px 10px royalblue;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+nav ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    font-size: 1.8em ;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+nav li{
+    border-top: solid rgb(10, 46, 155);
+    border-left: solid rgb(10, 46, 155);
+    border-right: solid rgb(10, 46, 155);
+    border-radius: 10px 15px 0px 0px;
+    box-shadow: 4px 4px 10px royalblue;
+    width: 10%;
+    margin-right: 5px;
+}
+
+nav li:hover{
+    font-size: larger;
+}
+
+nav li:active{
+    transform: translateY(-50%);
+    transition: transform 200ms;
+}
+
+a:hover{
+    color: rgb(10, 46, 155);
+}
+
+section{
+    border: solid 5px rgb(10, 46, 155);
+    border-radius: 15px;
+    box-shadow:4px 4px 15px royalblue;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 12%;
+    margin-right: 12%;
+    width: 75%;
+}
+
+section img{
+    width: 15%;
+    border-radius: 10%;
+    margin: 15px;
+}
+
+.vignette{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-right: 15px;
+    line-height: 1.5em;
+}
+
+footer{
+    border-top: 4px solid rgb(10, 46, 155);
+    width: 100%;
+}
+
+footer ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    font-size: 1.3em ;
+    justify-content: space-evenly; 
+}
