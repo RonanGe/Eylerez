@@ -1,6 +1,6 @@
 body{
     font-family: 'TW CEN MT';
-    background: linear-gradient(to top, rgb(25, 168, 224), 10%, white);
+    background: linear-gradient(to bottom, rgb(25, 168, 224), 85%, white);
 }
 
 a {
@@ -9,12 +9,21 @@ a {
 }
 
 header img{
-    width: 25%;
-    border-radius: 100%;
+    width: 20%;
 }
 
 header{
-    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center ;
+    border: solid 4px rgb(25, 168, 224);
+    box-shadow: 4px 4px 10px rgb(10, 46, 155) ;
+}
+
+label, #toggle{
+    display: none;
 }
 
 nav{
